@@ -1,4 +1,4 @@
-# These are projects and practices related to cybersecurity 
+# These are my projects and practices related to cybersecurity 
 
 Clone the repository and do the following
 
