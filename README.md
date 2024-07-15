@@ -8,3 +8,4 @@ Clone the repository and do the following
 - install the requirements using pip command
    ```bash
     pip3 install -r requirements.txt
+-output
