@@ -7,4 +7,4 @@ Clone the repository and do the following
 ## Python Projects
 - install the requirements using pip command
    ```bash
-    (pip3 install -r requirements.txt)
+    pip3 install -r requirements.txt
