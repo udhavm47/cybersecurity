@@ -3,6 +3,7 @@ import sys;
 import socket;
 from tabulate import tabulate;
 from prettytable import PrettyTable;
+import os,platform;
 
 target =str(sys.argv[1])
 target_ip = socket.gethostbyname(target);
@@ -31,5 +32,13 @@ for port in ports:
     except KeyboardInterrupt:
         print("\n Exitting!!")
         sys.exit()
+if platform.os == "windows":
+    os.system("cls")
+else:
+    os.system("clear")
+print(f'\nScan Completed!')
+print("\n")
+print(f'Target IP: {target_ip}')
+print('\n')
 print(rows);        
 print(f"Target {target} is up")
